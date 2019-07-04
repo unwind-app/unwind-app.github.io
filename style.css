@@ -189,3 +189,15 @@ h4 {
 .copyright {
     margin: 50px auto;
 }
+
+@media (max-width: 600px) {
+    .showcase { 
+        display: block;
+        max-width: 414px;
+        margin: 50px auto
+    }
+
+    .showcase__scene {
+        margin: 50px 0;
+    }
+}
