@@ -21,6 +21,7 @@ body {
 
     &.modal-open {
         overflow: hidden;
+        max-height: 100vh;
         
         .modal {
             visibility: visible;
@@ -321,4 +322,13 @@ blockquote {
     }
 
     .button--ios, .button--android { margin-right: 0 }
+    .modal__main {
+        top: 0;
+        left: 0;
+        height: 100%;
+        border-radius: 0;
+        overflow: scroll;
+        width: 100%;
+        transform: none;
+    }
 }
