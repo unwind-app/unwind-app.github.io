@@ -7,6 +7,12 @@
     --border: #302E38;
 }
 
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
 body {
     background: black;
     font-family: 'Cabin', sans-serif;
@@ -313,4 +319,6 @@ blockquote {
             margin-bottom: 25px;
         }
     }
+
+    .button--ios, .button--android { margin-right: 0 }
 }
