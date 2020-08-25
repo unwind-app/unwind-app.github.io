@@ -7,12 +7,6 @@
     --border: #302E38;
 }
 
-html,body {
-    max-width: 100%;
-    overflow-x: hidden;
-
-}
-
 body {
     background: black;
     font-family: 'Cabin', sans-serif;
@@ -310,6 +304,8 @@ blockquote {
     }
     .values__heading {
         position: static;
+        min-width: 0;
+        width: 100%;
     }
     .values__list {
         margin-left: 0;
