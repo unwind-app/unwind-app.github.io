@@ -7,5 +7,8 @@
                 "paths": [ "*"]
             }
         ]
+    },
+    "appclips": {
+        "apps": ["D35B5Y6JX8.me.kushagra.Unwind.Clip"]
     }
 }
